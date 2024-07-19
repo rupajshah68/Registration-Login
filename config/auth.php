@@ -62,7 +62,7 @@ return [
     'providers' => [
         'users' => [
             'driver' => 'eloquent',
-            'model' => App\Models\User::class,
+            'model' => App\Models\Users::class,
         ],
 
         // 'users' => [
@@ -90,8 +90,6 @@ return [
         'users' => [
             'provider' => 'users',
             'table' => 'password_resets',
-            'expire' => 60,
-            'throttle' => 60,
         ],
     ],
 
@@ -105,7 +103,5 @@ return [
     | confirmation screen. By default, the timeout lasts for three hours.
     |
     */
-
-    'password_timeout' => 10800,
 
 ];

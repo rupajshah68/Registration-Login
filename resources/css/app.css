@@ -1,0 +1,16 @@
+#submit-row{
+    text-align: center;
+}
+
+table td:not(.err){
+    padding: 5px 5px;
+}
+
+.err{
+    color: red;
+    padding: 0 5px;
+}
+
+p{
+    margin: 10px;
+}
